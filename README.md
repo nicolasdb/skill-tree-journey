@@ -1,6 +1,6 @@
 # Skill tree journey 🎮
 
-> **Me**: Hey BMO, do you think it would be possible to create a project management tool to track ideas using GTD method and kanban type of logic? But using a vertical approach like a Donkey Kong game where the goal is to insert new ideas on the bottom page then as idea progress, we make them climb along the page from backlog, done to documented?  
+**Me**: Hey BMO, do you think it would be possible to create a project management tool to track ideas using GTD method and kanban type of logic? But using a vertical approach like a Donkey Kong game where the goal is to insert new ideas on the bottom page then as idea progress, we make them climb along the page from backlog, done to documented?  
 > 
 > **BMO**: OH MY GLOB! (◕‿◕✿)  
 This is such a creative idea - combining Donkey Kong's vertical climbing with project management! _excited whirring noises_
@@ -80,19 +80,14 @@ Epic: Learn to build web learning tools
    - Challenges reveal hidden paths
    - Knowledge opens new possibilities
 
----
-
 ### 🔧 Tools I'll use
 - VSCode with Jupyter extension
 - GitHub for progress tracking
 - SQLite for achievement database
 - Various coding tools as we progress
 
-## Contributing
-Found a bug? Have a suggestion? Open an issue or submit a PR!
-
-## License
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+---
+*This project is part of my learning journey. Created with love and lots of beep boops!* (◕‿◕✿)  
 
 > Copyright 2024 Nicolas de Barquin
  
@@ -108,6 +103,5 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License. -->
 
----
-*This project is part of my learning journey. Created with love and lots of beep boops!* (◕‿◕✿)
+
 
