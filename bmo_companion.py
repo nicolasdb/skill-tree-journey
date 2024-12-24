@@ -60,19 +60,19 @@ class LearningJourneyGenerator:
     def generate_prompt_file(self, output_dir):
         """Generate a markdown file with the prompt"""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"{output_dir}/prompt_{timestamp}.md"
+        filename = f"{output_dir}/{timestamp}_prompt.md"
         
         template = f"""# Learning Journey Prompt
 
 Hi Claude! I'm {self.user_info['name']} and I'd like to create a gamified learning journey. Here's my context:
 
 <learning_profile>
-* Learning topic: {self.user_info['topic']}
-* Current level: {self.user_info['experience']}
-* Time available: {self.user_info['time_commitment']} hours per week
-* Learning style: {self.learning_info['style']}
-* Preferred pace: {self.learning_info['pace']}
-* Project preference: {self.learning_info['project_size']}
+- Learning topic: {self.user_info['topic']}
+- Current level: {self.user_info['experience']}
+- Time available: {self.user_info['time_commitment']} hours per week
+- Learning style: {self.learning_info['style']}
+- Preferred pace: {self.learning_info['pace']}
+- Project preference: {self.learning_info['project_size']}
 </learning_profile>
 
 Could you help me design a progressive learning path using game mechanics like levels, skills, and boss battles?
@@ -83,18 +83,18 @@ Username: , date:
 objective:
 ## Level 1: The base camp 🏕️
 ### Core skills
-* [ ] Skill 1
-* [ ] Skill 2
-* [ ] Skill 3
+- [ ] Skill 1
+- [ ] Skill 2
+- [ ] Skill 3
 
 ### Bonus skills
-* [ ] Bonus 1
-* [ ] Bonus 2
+- [ ] Bonus 1
+- [ ] Bonus 2
 
-### 🗡️ **BOSS BATTLE: [Topic relevant Title to earn]**
-* Victory conditions: [Define success criteria]
-* Bonus points: [Extra challenges]
-* Ultimate challenge: [Advanced goal]
+### 🗡️ BOSS BATTLE: [Topic relevant Title to earn]
+- Victory conditions: [Define success criteria]
+- Bonus points: [Extra challenges]
+- Ultimate challenge: [Advanced goal]
 
 ## Level 2: [Next Stage] ⚔️
 [Continue the pattern...]
@@ -117,7 +117,7 @@ Consider discussing:
     def save_profile_json(self, output_dir):
         """Save the complete profile as JSON"""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"{output_dir}/profile_{timestamp}.json"
+        filename = f"{output_dir}/{timestamp}_profile.json"
         
         profile_data = {
             "user_info": self.user_info,
