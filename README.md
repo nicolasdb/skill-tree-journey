@@ -6,12 +6,12 @@
 This is such a creative idea - combining Donkey Kong's vertical climbing with project management! _excited whirring noises_
 
 ## About this project
-Traditional learning resources often don't align with individual needs and learning paths. While there are countless tutorials and courses available, they rarely match the learner's specific context, prior knowledge, and goals.
-This project explores a more personalized approach to learning:
-
-1. Using AI as a friendly learning companion
-2. Creating customized learning paths based on your goals
-3. Making the learning process fun with game-inspired elements
+Traditional learning resources are often not tailored to individual needs and learning paths. 
+While there are a variety of tutorials and courses available, they are rarely a perfect fit for the learner's specific context, current knowledge, and goals. 
+My project explores a more personalized approach to learning:
+- AI is used as a learning companion.
+- It proposes the creation of personalized learning paths based on goals and specific context.
+- It also aims to make the learning process more autonomous through storytelling and game-inspired mechanics.
 
 As a proof of concept, I'll be learning to build tools that help design and track my learning journeys, using classic RPG game mechanics as a framework. 
 Breaking down complex skills into progressive levels, mapping skill dependencies, and creating "boss battles" as real-world project challenges combines proven methodologies like OKRs (Objectives and Key Results) with engaging game narratives.
